@@ -20,7 +20,7 @@ body{
 	width: 100px;
 }
 .janr_img{
-  width: 500px;
+  width: 470px;
   height: auto;
   vertical-align: middle;
 }
@@ -41,9 +41,18 @@ body{
 }
 .col_slide{
   display: inline-block;
-  box-shadow: 0 0 50px rgb(255,255,255); 
+  box-shadow: 0 0 15px rgb(115,175,35); 
 }
 .col_slide:hover{
   display: inline-block;
-  box-shadow: 0 0 52px rgb(34, 106,248); 
+  box-shadow: 0 0 52px rgb(34, 156,250); 
+}
+.reklama{
+  margin-left: 10px;
+  width: 40%;
+}
+@media only screen and (max-width: 1000px){
+  .reklama{
+    width: 100%;
+  }
 }
