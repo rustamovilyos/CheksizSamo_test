@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(to bottom, rgba(40, 10, 0, 0.3) 0%, rgba(0, 0, 10, 0.7) 75%, #000000 100%), url("unnamed.jpg");
+  background: linear-gradient(to bottom, rgba(205, 235, 215, 0.3) 0%, rgba(10, 10, 20, 0.7) 75%, #000000 100%), url("linear.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -34,46 +34,6 @@ body{
 }
 .btn_down:hover {
   background-color: RoyalBlue;
-}
-
-a.link_conn{
-    box-shadow: 0px 0px 15px 2px rgb(0, 255, 255);
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid white;
-    display: inline-block;
-    position: relative;
-    top: 7px;
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-   background-color: rgb(255, 255, 255);
-   
-}
-a.link_conn:active{
-  background-color: rgb(40, 20, 30);
-}
-a.link_conn:hover{
-	padding-right: 20px;
-  text-align: center;
-  font-size: 22px;
-}
-#tg:hover{
-  text-shadow: 0 0 1px rgb(14, 56,128) ;
-  font-size: 32px;
-  padding: 0;
-}
-#insta:hover{
-  text-shadow: 0 0 1px rgb(14, 56,128) ;
-  font-size: 32px;
-}
-#face:hover{
-  text-shadow: 0 0 1px rgb(14, 56,128) ;
-  font-size: 32px;
-}
-
-i{
-  font-size: 25px;
 }
 .container1{
   width: 100%;
