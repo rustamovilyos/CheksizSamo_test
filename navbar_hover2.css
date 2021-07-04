@@ -21,8 +21,9 @@ body{
 }
 .janr_img{
   width: 470px;
-  height: auto;
+  height: 570px;
   vertical-align: middle;
+  padding: 0;
 }
 .btn_down {
   background-color: DodgerBlue;
@@ -48,11 +49,16 @@ body{
   box-shadow: 0 0 52px rgb(34, 156,250); 
 }
 .reklama{
-  margin-left: 10px;
+  border: solid;
   width: 40%;
-}
-@media only screen and (max-width: 1000px){
+ }
+@media only screen and (min-width: 1000px){
   .reklama{
     width: 100%;
   }
 }
+.dwn_card{
+  width: 620px;
+  height: auto;
+}
+
